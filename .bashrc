@@ -1,4 +1,5 @@
 source ~/.colors.sh
+source ~/.variables.sh
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
@@ -63,7 +64,7 @@ function parse_git_dirty {
 }
 
 # Setting PS1
-export PS1="[\[$Red\]\u\[$Color_Off\]@\[$Blue\]\h\[$Color_Off\] \[$BGreen\]\w\[$Color_Off\]\[$BPurple\]\$(__git_ps1)\$(parse_git_dirty)\[$Color_Off\]] \$  "
+export PS1="[\[$Red\]\u\[$Color_Off\]@\[$Blue\]$HOSTNAME\[$Color_Off\] \[$BGreen\]\w\[$Color_Off\]\[$BPurple\]\$(__git_ps1)\$(parse_git_dirty)\[$Color_Off\]] \$  "
 
 
 # enable color support of ls and also add handy aliases

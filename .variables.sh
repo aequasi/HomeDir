@@ -1,0 +1,2 @@
+#!/bin/bash
+HOSTNAME="CPC"

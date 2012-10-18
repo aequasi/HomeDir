@@ -8,9 +8,9 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:wq
 :q
 :w
+:wq
 
 # Search String History (newest to oldest):
 
@@ -23,14 +23,24 @@
 # Registers:
 
 # File marks:
-'0  3  0  ~/.gitignore
-'1  1  0  ~/.ssh/authorized_keys
-'2  1  0  ~/.profile
-'3  1  12  ~/.gitignore
-'4  6  0  ~/.bash_logout
-'5  2  0  ~/[Vundle] clean
+'0  67  55  ~/.bashrc
+'1  2  13  ~/.variables.sh
+'2  2  21  ~/.bashrc
+'3  3  0  ~/.gitignore
+'4  1  0  ~/.ssh/authorized_keys
+'5  1  0  ~/.profile
+'6  1  12  ~/.gitignore
+'7  6  0  ~/.bash_logout
+'8  2  0  ~/[Vundle] clean
 
 # Jumplist (newest first):
+-'  67  55  ~/.bashrc
+-'  2  21  ~/.bashrc
+-'  2  13  ~/.variables.sh
+-'  1  0  ~/.variables.sh
+-'  66  13  ~/.bashrc
+-'  25  0  ~/.bashrc
+-'  1  0  ~/.bashrc
 -'  3  0  ~/.gitignore
 -'  1  12  ~/.gitignore
 -'  1  0  ~/.ssh/authorized_keys
@@ -103,8 +113,40 @@
 -'  1  0  ~/.bash_logout
 -'  2  0  ~/[Vundle] clean
 -'  2  0  ~/[Vundle] clean
+-'  3  0  ~/.gitignore
+-'  1  12  ~/.gitignore
+-'  1  0  ~/.ssh/authorized_keys
+-'  1  0  ~/.profile
+-'  6  0  ~/.bash_logout
+-'  1  0  ~/.bash_logout
+-'  2  0  ~/[Vundle] clean
+-'  2  0  ~/[Vundle] clean
+-'  6  0  ~/.bash_logout
+-'  1  0  ~/.bash_logout
+-'  2  0  ~/[Vundle] clean
+-'  2  0  ~/[Vundle] clean
+-'  6  0  ~/.bash_logout
+-'  1  0  ~/.bash_logout
+-'  2  0  ~/[Vundle] clean
+-'  2  0  ~/[Vundle] clean
+-'  6  0  ~/.bash_logout
+-'  1  0  ~/.bash_logout
+-'  2  0  ~/[Vundle] clean
 
 # History of marks within files (newest to oldest):
+
+> ~/.bashrc
+	"	67	55
+	^	67	56
+	.	67	55
+	+	2	21
+	+	67	55
+
+> ~/.variables.sh
+	"	2	13
+	^	2	14
+	.	2	14
+	+	2	14
 
 > ~/.gitignore
 	"	3	0
