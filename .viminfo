@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/nk
+~MSle0~/alias
 
 # Last Substitute Search Pattern:
 ~MSle0&localhost
@@ -17,6 +17,7 @@
 $10.10.10.100
 
 # Command Line History (newest to oldest):
+:wq
 :q
 :w
 :qa!
@@ -36,12 +37,13 @@ $10.10.10.100
 :help NERD_tree.txt
 :helptags 
 :helptags
-:wq
 :version | grep ruby
 :version
 :%s/localhost/10.10.10.100/g
 
 # Search String History (newest to oldest):
+?/alias
+?/ource
 ?/nk
 ?/N
 ?/PS1
@@ -94,24 +96,27 @@ $10.10.10.100
 	v
 
 # File marks:
-'0  2725  0  ~/git-completion.sh
-'1  73  144  ~/.colors.sh
-'2  66  48  ~/.bashrc
-'3  68  2  ~/.bashrc
-'4  80  18  ~/.bashrc
-'5  68  1  ~/.bashrc
-'6  365  42  ~/.vimrc
-'7  346  37  ~/.vimrc
-'8  1  0  ~/.composer/cache/http---packagist.org/packages-2006.json
-'9  1  0  ~/.spf13-vim-3/.vim/bundle/nerdtree/syntax/nerdtree.vim
+'0  86  7  ~/.bashrc
+'1  59  0  ~/.bashrc
+'2  32  0  ~/.bashrc
+'3  2725  0  ~/git-completion.sh
+'4  73  144  ~/.colors.sh
+'5  66  48  ~/.bashrc
+'6  68  2  ~/.bashrc
+'7  80  18  ~/.bashrc
+'8  68  1  ~/.bashrc
+'9  365  42  ~/.vimrc
 
 # Jumplist (newest first):
+-'  86  7  ~/.bashrc
+-'  59  0  ~/.bashrc
+-'  32  0  ~/.bashrc
+-'  71  48  ~/.bashrc
+-'  66  48  ~/.bashrc
 -'  2725  0  ~/git-completion.sh
 -'  1  0  ~/git-completion.sh
 -'  73  144  ~/.colors.sh
 -'  1  0  ~/.colors.sh
--'  66  48  ~/.bashrc
--'  59  0  ~/.bashrc
 -'  61  0  ~/.bashrc
 -'  68  4  ~/.bashrc
 -'  9  0  ~/.bashrc
@@ -201,26 +206,13 @@ $10.10.10.100
 -'  1  0  /etc/ssh/ssh_config
 -'  54  25  /etc/ssh/ssh_config
 -'  1  0  /etc/ssh/ssh_config
--'  13  34  /etc/hosts
--'  1  0  /etc/hosts
--'  66  48  ~/.bashrc
--'  59  0  ~/.bashrc
 
 # History of marks within files (newest to oldest):
 
-> ~/git-completion.sh
-	"	2725	0
-
-> ~/.colors.sh
-	"	73	144
-	^	73	145
-	.	73	144
-	+	73	144
-
 > ~/.bashrc
-	"	66	48
-	^	66	49
-	.	66	48
+	"	86	7
+	^	86	8
+	.	86	8
 	+	82	17
 	+	84	23
 	+	85	0
@@ -249,6 +241,18 @@ $10.10.10.100
 	+	66	159
 	+	59	0
 	+	66	48
+	+	59	0
+	+	86	11
+	+	86	8
+
+> ~/git-completion.sh
+	"	2725	0
+
+> ~/.colors.sh
+	"	73	144
+	^	73	145
+	.	73	144
+	+	73	144
 
 > ~/NERD_tree_1
 	"	39	0

@@ -56,7 +56,7 @@ COLOR2="\[\033[1;34m\]"
 COLOR3="\[\033[1;37m\]"
 COLOR4="\[\033[0;31m\]"
 
-ource ~/git-completion.sh
+source ~/git-completion.sh
 source ~/git-flow-completion.sh
 function parse_git_dirty {
 [[ $(git status -vsu no 2> /dev/null | tail -n1) != "" ]] && echo "*"
@@ -83,7 +83,7 @@ alias l='ls -lha'
 alias sshr='ssh -l root'
 alias ssh='ssh -l aaron'
 alias vim="vim -p"
-alias v = "vim"
+alias v="vim"
 alias cp="cp -i"
 
 # Alias definitions.
